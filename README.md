@@ -1,5 +1,5 @@
 # Algoritmo de Criptografia 
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/jgabfalcao/eventGoogleCalendarEAC/blob/main/LICENSE) 
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/UNISANTOSTDE/TDE-Criptografia/blob/main/LICENSE) 
 
 # Sobre o projeto
 
