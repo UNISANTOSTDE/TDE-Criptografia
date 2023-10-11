@@ -1,4 +1,5 @@
 import random
+from colorama import Fore, Back
 
 
 def random_key():
@@ -48,12 +49,16 @@ def vigenere(texto, chave, modo):
     return resultado
 
 
-texto_original = input('Digite a palavra para ser criptografada: ')
+texto_original = input('Digite a palavra para ser criptografada: ' + Fore.GREEN)
+print(Fore.WHITE + "------------------------------------------------------")
 
 key = random_key()
-print("Chave da criptografia:", key)
+print(Fore.WHITE + "Chave da criptografia:", Fore.YELLOW + key)
+print(Fore.WHITE + "------------------------------------------------------")
 
 texto_criptografado = vigenere(texto_original, key, 'encriptar')
-print('Texto criptografado:', texto_criptografado)
+print(Fore.WHITE + 'Texto criptografado:', Fore.RED + texto_criptografado)
+print(Fore.WHITE + "------------------------------------------------------")
 texto_descriptografado = vigenere(texto_criptografado, key, 'desencriptar')
-print('Texto descriptografado:', texto_descriptografado)
+print(Fore.WHITE + 'Texto descriptografado:', Fore.GREEN + texto_descriptografado)
+print(Fore.WHITE + "------------------------------------------------------")
