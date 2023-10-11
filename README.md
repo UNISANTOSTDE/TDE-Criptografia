@@ -3,10 +3,9 @@
 
 # Sobre o projeto
 
-O projeto é uma aplicação FullStack construída para um evento (EAC - Encontro de Adolescentes com Cristo) que ocorre anualmente em uma Paróquia da minha cidade em que atuo, Paróquia Nossa Senhora das Graças - (São Vicente - SP). É um projeto aonde coloquei minhas habilidades em prática com uma ideia unica e inovadora.
+O projeto é um algoritmo de criptografia, que utiliza a cifra de Vigenere 
 
-A aplicação consiste em telas mobile que descrevem melhor o objetivo final do Encontro. E também em uma etapa da navegação, tem uma integração com o GOOGLE para realizar o login e autorizar o uso de dados. Que serão utilizados por uma integração com o Google Calendário para criar um evento personalizado, com aviso antes do evento.
-  
+A cifra de Vigenère é um método clássico de criptografia que usa uma palavra-chave para cifrar mensagens
   
 ## Descrição do projeto em vídeo
 
@@ -80,37 +79,35 @@ A aplicação consiste em telas mobile que descrevem melhor o objetivo final do 
 
 
 # Tecnologias utilizadas
-## Front end
-- HTML
-- CSS
-- JavaScript
-- Live Server
-
 ## Back end
-- JavaScript
-- Google API
+- Python
 
 # Como executar o projeto
 
-## Front end web
+## Back end
 
 ```bash
 # clonar repositório
-git clone https://github.com/jgabfalcao/eventGoogleCalendarEAC.git
+git clone https://github.com/UNISANTOSTDE/TDE-Criptografia.git
 
 # entrar na pasta do projeto responsiveFooter
-cd eventGoogleCalendarEAC
+cd TDE-Criptografia
 
-# secret.html
+# instalar dependências
+pip install colorama
 
-Inserir CLIENT_ID
-Inserir API_KEY
+# iniciar algoritmo WINDOWS
+python script.py
 
-# rodar o projeto no live server
+#iniciar algoritmo mac, Linux
+python3 script.py
 ```
 
 # Autor
 
 João Gabriel Falcão dos Santos
+João Vitor Pereira
+Vinicius 
+
 
 https://www.linkedin.com/in/jo%C3%A3o-falc%C3%A3o013/
